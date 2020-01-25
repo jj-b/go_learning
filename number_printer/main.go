@@ -1,6 +1,6 @@
 package main
 
-import "fmt"
+import"fmt"
 
 func main() {
 	//initialise an array
@@ -11,5 +11,13 @@ func main() {
 	}
 	//For debugging purposes, print the array.
 	fmt.Println(intArray)
-
+/*Iterate over the array and evaluate each number.
+If the number is not divisible by 3, 5, or 3 and 5, print the number.
+If it meets one of the above conditions print the appropriate string*/
+	for count := 0; count <= 99; count++ {
+		if intArray[count] % 3 == 0 && intArray[count] % 5 == 0{
+fmt.Println("foo", "bar")
+}
+//Close loop
+	}
 }
