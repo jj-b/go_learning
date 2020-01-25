@@ -22,7 +22,7 @@ fmt.Println("foo")
 } else if intArray[count] % 5 == 0{
 fmt.Println("bar")
 } else {
-fmt.Println(intArray.Get[count])
+fmt.Println(intArray[count])
 }
 //Close loop
 	}
