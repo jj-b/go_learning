@@ -18,3 +18,9 @@ type item struct {
 }
 
 /*Users will interact with ToDo items via the 'list' type*/
+type List []item
+
+//Function to create a new item and append it to a list
+func (l *List) Add(task string) {
+
+}
