@@ -1,0 +1,6 @@
+keys := []string{}
+
+for key := range sammy {
+    keys = append(keys, key)
+}
+fmt.Printf("%q", keys)
